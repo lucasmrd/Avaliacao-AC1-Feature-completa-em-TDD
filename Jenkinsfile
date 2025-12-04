@@ -49,7 +49,7 @@ pipeline {
                 }
 
                 // Push para o Docker Hub
-                bat 'docker push lucasm1rnd/af-parte1-pratica3:latest'
+                bat 'docker push lucasm1rnd/af-parte1:latest'
             }
         }
 
