@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  api:
+    image: lucasm1rnd/af-parte1:latest
+    container_name: af-parte1-staging
+    ports:
+      - "8686:8080"
+    restart: unless-stopped
